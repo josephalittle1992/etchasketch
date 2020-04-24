@@ -1,0 +1,32 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+
+#container {
+    display: grid;
+    border: 8px solid black;
+    height: 40vh;
+    width: 40vh;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    
+}
+
+#btnHolder {
+    display: flex;
+}
+
+#resetBtn {
+    height: 3vh;
+    width: 8vh;
+    border-radius: 5px;
+}
+
+#spacer {
+    height: 1vh;
+}
